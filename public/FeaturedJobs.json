@@ -2,32 +2,34 @@
   {
     "id": 1,
     "companyLogo": "https://i.ibb.co/kJJmG3T/google-1-1-1.png",
-    "jobTitle": "Software Engineer",
+    "jobTitle": "Data scientist",
     "companyName": "Google LLc",
     "remoteOrOnsite": "Remote",
     "location": "Anywhere",
     "fulltimeOrPartTime": "Full-time",
     "salary": "$100,000 - $120,000",
-    "jobDescription": "We are looking for a software engineer to join our team...",
-    "jobResponsibility": "Develop and maintain software applications...",
+    "jobDescription": "We are seeking an experienced data scientist to lead our analytics team. The successful candidate will have a strong background in statistical modeling and machine learning, and will be responsible for analyzing large datasets to identify trends and insights. This role will require strong communication skills to present findings and recommendations to stakeholders",
+    "jobResponsibility": "Lead the analytics team to develop predictive models, analyze data to identify trends and insights, communicate findings and recommendations to stakeholders, collaborate with cross-functional teams to drive business value from data, stay up-to-date with emerging trends and technologies in data science.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "Minimum of 3 years of experience in software engineering",
-    "email": "jobs@acmeinc.com"
+    "email": "jobs@acmeinc.com",
+    "phone": "+1-123-456-7890"
   },
   {
     "id": 2,
     "companyLogo": "https://i.ibb.co/TbjtRpL/tesla-9-1.png",
-    "jobTitle": "Tesla",
+    "jobTitle": "Software Engineer",
     "companyName": "Beta Corp.",
     "remoteOrOnsite": "Onsite",
     "location": "New York, NY",
     "fulltimeOrPartTime": "Full-time",
     "salary": "$80,000 - $100,000",
-    "jobDescription": "We are seeking a marketing manager to develop and execute...",
-    "jobResponsibility": "Develop and execute marketing plans...",
+    "jobDescription": "We are seeking a highly motivated and skilled individual to join our team as a Software Engineer. In this role, you will be responsible for developing and maintaining software applications that meet the needs of our clients. You will work closely with other members of the development team to ensure that all software is delivered on time and to the highest quality standards.",
+    "jobResponsibility": "Designing and implementing software solutions Writing and maintaining high-quality code Participating in code reviews and testing Collaborating with other team members to troubleshoot and solve problems",
     "educationalRequirements": "Bachelor's degree in Marketing or related field",
     "experiences": "Minimum of 5 years of experience in marketing",
-    "email": "jobs@betacorp.com"
+    "email": "jobs@betacorp.com",
+    "phone": "+1-123-456-7890"
   },
   {
     "id": 3,
@@ -38,11 +40,12 @@
     "location": "Los Angeles, CA",
     "fulltimeOrPartTime": "Part-time",
     "salary": "$40 - $50 per hour",
-    "jobDescription": "We are seeking an accountant to help manage our financial...",
-    "jobResponsibility": "Prepare and review financial statements...",
+    "jobDescription": "As a Marketing Manager at our company, you will be responsible for developing and executing marketing plans to promote our products and services. Your primary goal will be to increase brand awareness and drive sales through a variety of channels, including digital and traditional marketing methods.",
+    "jobResponsibility": "Developing and executing marketing strategies and campaigns Collaborating with other departments to ensure alignment of marketing efforts with business goals Developing content for a variety of marketing channels, including social media, email, and website",
     "educationalRequirements": "Bachelor's degree in Accounting or related field",
     "experiences": "Minimum of 2 years of experience in accounting",
-    "email": "jobs@gammallc.com"
+    "email": "jobs@gammallc.com",
+    "phone": "+1-123-456-7890"
   },
   {
     "id": 4,
@@ -53,11 +56,12 @@
     "location": "Anywhere",
     "fulltimeOrPartTime": "Full-time",
     "salary": "$60,000 - $80,000",
-    "jobDescription": "We are seeking a talented graphic designer to help create...",
-    "jobResponsibility": "Create graphics for marketing materials...",
+    "jobDescription": "A job description in the tech industry typically includes information about the position's purpose, required qualifications, and responsibilities. It may also include information about the company, the team, and the culture. Here's an example:",
+    "jobResponsibility": "Job responsibilities in the tech industry can vary widely depending on the role and company. Develop, test, and deploy software applications Analyze and troubleshoot software issues",
     "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
     "experiences": "Minimum of 3 years of experience in graphic design",
-    "email": "jobs@deltaco.com"
+    "email": "jobs@deltaco.com",
+    "phone": "+1-123-456-7890"
   },
   {
     "id": 5,
@@ -68,11 +72,12 @@
     "location": "Chicago, IL",
     "fulltimeOrPartTime": "Full-time",
     "salary": "$90,000 - $110,000",
-    "jobDescription": "We are seeking a Human Resources Manager to oversee our HR department...",
-    "jobResponsibility": "Manage recruitment, onboarding, and employee relations...",
+    "jobDescription": "The Human Resources Manager will be responsible for managing all aspects of the organization's human resources function, including recruitment, employee relations, compensation and benefits, performance management, and compliance.",
+    "jobResponsibility": "This job description provides an overview of the purpose, qualifications, and responsibilities of an HR Manager. However, it's important to note that specific job descriptions can vary depending on the organization and the specific requirements of the role.",
     "educationalRequirements": "Bachelor's degree in Human Resources or related field",
     "experiences": "Minimum of 5 years of experience in human resources",
-    "email": "jobs@epsiloninc.com"
+    "email": "jobs@epsiloninc.com",
+    "phone": "+1-123-456-0"
     },
     {
     "id": 6,
@@ -83,10 +88,11 @@
     "location": "Miami, FL",
     "fulltimeOrPartTime": "Full-time",
     "salary": "$50,000 - $70,000",
-    "jobDescription": "We are seeking a sales representative to join our team...",
-    "jobResponsibility": "Generate leads, develop relationships with clients...",
+    "jobDescription": "Google is a multinational technology company that specializes in internet-related services and products. As such, the specific job descriptions and responsibilities may vary depending on the role and department within the company. Here is a general overview of the types of",
+    "jobResponsibility": "These are just a few examples of the types of job descriptions and responsibilities you might find at Google. To learn more about specific roles and requirements, it's best to visit Google's career website and search for job openings that interest",
     "educationalRequirements": "Bachelor's degree in Sales or related field",
     "experiences": "Minimum of 2 years of experience in sales",
-    "email": "jobs@zetaenterprises.com"
+    "email": "jobs@zetaenterprises.com",
+    "phone": "+1-166-456-5454"
     }
     ]
