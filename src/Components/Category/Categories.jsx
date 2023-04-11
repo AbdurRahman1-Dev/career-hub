@@ -10,10 +10,9 @@ const Categories = () => {
     .then(data => setCategories(data))
   },[])
 
-  console.log(categories);
 
   return (
-    <div className='mt-24'>
+    <div className='my-24'>
      <div className='text-center'>
      <h1 className='text-4xl font-semibold'>Job Category List</h1>
       <p className='primary-text py-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>

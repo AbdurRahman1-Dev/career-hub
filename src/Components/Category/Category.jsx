@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Category = ({category}) => {
-  console.log(category.logo);
+
   return (
       <div className='primary-bg-color p-10 rounded-lg'>
         <img src={category.logo} alt="" />
