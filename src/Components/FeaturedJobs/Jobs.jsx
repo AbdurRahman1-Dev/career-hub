@@ -16,10 +16,12 @@ const Jobs = ({jobs}) => {
      steJobs(jobs)
   }
   
-  console.log(someJobs);
+
+  
+
   return (
     <div>
-      <div className='text-center'>
+      <div className='text-center py-6'>
      <h1 className='text-4xl font-semibold'>Featured Jobs</h1>
       <p className='primary-text py-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
      </div>

@@ -9,10 +9,11 @@ const Navbar = () => {
           <h2 className='text-4xl font-bold text-zinc-900'>FindYourJob</h2>
         </div>
         <div className="menu">
-          <ul className='flex justify-center items-center gap-6 md:text-lg text-sm font-semibold py-3'>
-           <NavLink to={'/'}> <li>Home</li></NavLink>
-            <Link to={'/statistics'}><li>Statistics</li></Link>
-            <li>Applied Jobs</li>
+          <ul className='flex justify-center items-center gap-6 py-3'>
+          <li><NavLink className={({isActive}) => (isActive) ? 'active' : 'default'} to={'/'}>Home</NavLink></li>
+
+            <li> <NavLink to='/statistics' className={({isActive}) => (isActive) ? 'active' : 'default' }>Statistics</NavLink></li>
+            <li> <NavLink to='/appliedjobs' className={({isActive}) => (isActive) ? 'active' : 'default' }>Applied Jobs</NavLink></li>
             <li>Blog</li>
           </ul>
         </div>
