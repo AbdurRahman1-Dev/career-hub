@@ -6,7 +6,7 @@ const Navbar = () => {
     <header>
       <nav className='my-container md:flex text-center justify-between items-center'>
         <div className="logo">
-          <h2 className='text-4xl font-bold text-zinc-900'>FindYourJob</h2>
+         <Link to={'/'}> <h2 className='text-4xl font-bold text-zinc-900'>FindYourJob</h2></Link>
         </div>
         <div className="menu">
           <ul className='flex justify-center items-center gap-6 py-3'>

@@ -8,7 +8,7 @@ const Jobs = ({jobs}) => {
 
  useEffect(()=>{
    let lowjob = jobs.slice(0,4);
-  steJobs(lowjob)
+    steJobs(lowjob)
  },[])
 
  

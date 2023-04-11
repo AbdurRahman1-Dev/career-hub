@@ -10,21 +10,23 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Statistics from './Components/Statistics';
 import JobDetails from './Components/JobDetails/JobDetails';
+import Error from './Components/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+    errorElement: <Error/>,
     children: [
       {
         path: "/",
         element: <Home/>,
-        loader: () => fetch('FeaturedJobs.json')
+        loader: () => fetch('/FeaturedJobs.json')
       },
       {
-        path:'/jobdetails/:id',
-        element: <JobDetails/>,
-        // loader: ({params}) => fetch('FeaturedJobs.json')
+        path:"jobdetails/:jobid",
+        element:<JobDetails/>,
+        loader: ({params}) => fetch('FeaturedJobs.json')
       },
       {
         path: 'statistics',
