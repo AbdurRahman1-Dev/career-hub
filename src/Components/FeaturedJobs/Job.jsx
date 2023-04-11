@@ -23,7 +23,7 @@ const Job = ({job}) => {
 
         <p className='primary-text'><CurrencyDollarIcon className="h-6 w-6 text-gray-400 inline-block"/> {job.salary}</p>
       </div>
-      <Link to={'jobdetails/3'}><button className='btn'>View Details</button></Link>
+      <Link to={`jobdetails/${job.id}`}><button className='btn'>View Details</button></Link>
       </div>
     </div>
   );

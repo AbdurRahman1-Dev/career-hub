@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import Banner from '../Banner';
 
 const JobDetails = () => {
- let data= useLoaderData()
- console.log(data);
+  
+  let data= useLoaderData();
+  let {jobid} = useParams();
+
+  let [job,setjob] = useState([]);
+
+  useEffect(()=>{
+    let jobDetail = data.find(id => id.id == jobid);
+    setjob(jobDetail);
+  },[])
+
+console.log(job);
+
   return (
     <div>
-      hello
+      <Banner details={'Job Details'}/>
+      <h1>{job.id}</h1>
     </div>
   );
 };
