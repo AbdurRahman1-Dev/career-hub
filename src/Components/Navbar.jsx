@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import { Bars3Icon} from '@heroicons/react/24/solid'
 
 
-
 const Navbar = () => {
   return (
     <header>
@@ -22,16 +21,7 @@ const Navbar = () => {
           </ul>
 
 
-          {/* <div className="dropdown dropdown-bottom md:hidden inline-block">
-           
-            <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li><a>Item 2</a></li>
-            </ul>
-          </div> */}
-
-
-          <div className="dropdown  dropdown-bottom md:hidden w-full my-2">
+          <div className="dropdown   dropdown-bottom dropdown-end md:hidden w-full my-2">
           < Bars3Icon tabIndex={0} className="h-6 w-6 text-indigo-600 inline-block"/>
           <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
           <li><NavLink className={({isActive}) => (isActive) ? 'active' : 'default'} to={'/'}>Home</NavLink></li>
@@ -41,7 +31,6 @@ const Navbar = () => {
           <li> <NavLink to='/blog' className={({isActive}) => (isActive) ? 'active' : 'default' }>Blog</NavLink></li>
           </ul>
         </div>
-
 
         </div>
         <div className="button">
