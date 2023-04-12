@@ -27,7 +27,7 @@ const uniqueIds = [];
   setApplyJobs(unique)
 },[])
 
-  //  let newee = removeDuplicates(jobs)
+{
   return (
     <div>
       <Banner details={'Applied Jobs'}/>
@@ -36,8 +36,11 @@ const uniqueIds = [];
           return <ApplyJob key={job.id} job={job}/>
         })
       }    
+      
     </div>
   );
+}
+
 };
 
 export default Applied;
