@@ -20,7 +20,7 @@ const JobDetails = () => {
   return (
     <div>
       <Banner details={'Job Details'}/>
-      <div className='my-container grid grid-cols-6 gap-6 my-6'>
+      <div className='my-container grid md:grid-cols-6 gap-6 my-6'>
     <div className='col-span-4'>
     <p className='primary-text pb-4'><span className='text-gray-900 font-bold'>Job Description:</span> {job.jobDescription}</p>
         
