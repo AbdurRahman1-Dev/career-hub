@@ -13,6 +13,7 @@
   font-weight: 800;
   font-size: 20px;
   color: #FFFFFF;
+    @apply border-0 font-mono;
 }
 
 .primary-text{
@@ -30,9 +31,10 @@
 }
 
 .active{
-  @apply font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-400
+  @apply font-medium tracking-wide bg-inherit hover:bg-inherit text-blue-700 transition-colors duration-200 hover:text-blue-400
+
 }
 
 .default{
-  @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400
+  @apply font-medium tracking-wide hover:bg-inherit text-gray-700 transition-colors duration-200 hover:text-blue-400
 }

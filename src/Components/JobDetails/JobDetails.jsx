@@ -17,7 +17,6 @@ const JobDetails = () => {
     setjob(jobDetail);
   },[])
 
-  // addToLocal(job)
 
   return (
     <div>
