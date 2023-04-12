@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import Banner from '../Banner';
 import { MapPinIcon, CurrencyDollarIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
-
+import { addToLocal } from '../utils/addtolocal';
+import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetails = () => {
   
@@ -16,12 +17,12 @@ const JobDetails = () => {
     setjob(jobDetail);
   },[])
 
-console.log(job);
+  // addToLocal(job)
 
   return (
     <div>
       <Banner details={'Job Details'}/>
-      <div className='my-container grid grid-cols-6 gap-6'>
+      <div className='my-container grid grid-cols-6 gap-6 my-6'>
     <div className='col-span-4'>
     <p className='primary-text pb-4'><span className='text-gray-900 font-bold'>Job Description:</span> {job.jobDescription}</p>
         
@@ -58,11 +59,12 @@ console.log(job);
       <p className='primary-text py-2'><EnvelopeIcon className="h-6 w-6 text-indigo-500 inline-block"/>
       <span className='text-gray-700 font-semibold ps-2'> E-mail:</span>{job.email}</p>
 
-      <p className='primary-text py-2'><EnvelopeIcon className="h-6 w-6 text-indigo-500 inline-block"/>
+      <p className='primary-text py-2'><MapPinIcon className="h-6 w-6 text-indigo-500 inline-block"/>
       <span className='text-gray-700 font-semibold ps-2'> Address:</span>{job.location}</p>
 
     </div>
-    <button className='bg-indigo-500 w-full py-3 mt-3 rounded-md text-white font-semibold text-xl'>Apply now</button>
+    <Toaster/>
+    <button onClick={() => addToLocal(job)} className='bg-indigo-500 w-full py-3 mt-3 rounded-md text-white font-semibold text-xl'>Apply now</button>
     </div>
       </div>
     </div>
