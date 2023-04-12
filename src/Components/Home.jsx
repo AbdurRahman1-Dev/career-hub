@@ -6,7 +6,6 @@ import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
   let jobs = useLoaderData()
-
   return (
    <div className='my-container'>
     <HomeBanner/>

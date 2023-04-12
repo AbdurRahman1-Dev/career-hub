@@ -17,7 +17,6 @@ const JobDetails = () => {
     setjob(jobDetail);
   },[])
 
-
   return (
     <div>
       <Banner details={'Job Details'}/>
@@ -63,7 +62,8 @@ const JobDetails = () => {
 
     </div>
     <Toaster/>
-    <button onClick={() => addToLocal(job)} className='bg-indigo-500 w-full py-3 mt-3 rounded-md text-white font-semibold text-xl'>Apply now</button>
+    <button onClick={() => addToLocal(job)
+    } className='bg-indigo-500 w-full py-3 mt-3 rounded-md text-white font-semibold text-xl'>Apply now</button>
     </div>
       </div>
     </div>
